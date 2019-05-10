@@ -20,7 +20,7 @@ def game():
  		negative = 0
  		for letter in answer:
  			if letter in null:
- 				print letter	
+ 				print letter ,
  			else:
  				print "_"	 
  				negative += 1
